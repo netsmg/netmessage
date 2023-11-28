@@ -3,12 +3,15 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyCeZNrV4Ku7VF79ZdkA4dCwgBe9O0ToDcU",
-  authDomain: "chatify-62038.firebaseapp.com",
-  projectId: "chatify-62038",
-  storageBucket: "chatify-62038.appspot.com",
-  messagingSenderId: "302792296837",
-  appId: "1:302792296837:web:769fed30c60c9c73bb5cec",
+  apiKey: "AIzaSyBzzaSTr42firr3fx5YcdXhDzB4iBLVBOM",
+  authDomain: "contact-database-9c47b.firebaseapp.com",
+  databaseURL: "https://contact-database-9c47b-default-rtdb.firebaseio.com",
+  projectId: "contact-database-9c47b",
+  storageBucket: "contact-database-9c47b.appspot.com",
+  messagingSenderId: "118822537955",
+  appId: "1:118822537955:web:3ef795baeadbe37b7293d6",
+  measurementId: "G-0WY0798WFC"
+  
 });
 
 const auth = getAuth(firebaseApp);
